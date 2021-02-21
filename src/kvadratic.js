@@ -2,12 +2,10 @@ import React, { Component } from "react";
 import "./kvadratic.css";
 
 class Kvadratic extends Component {
-  render() {
-      
+  render() {      
     return (
       <div className="vodoravno">
-      <img src={this.props.slika} width='60px'></img>
-      
+        <img src={this.props.slika} width='60px'></img>
       </div>
     );
   }
